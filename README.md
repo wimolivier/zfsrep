@@ -8,6 +8,7 @@ Requirements
 ============
 Both the source and destination pools and volumes/filesystems need to already exist.
 ZFSREP will take care of taking initial snapshots on the SRC host, so ideally there should be no existing snapshots on any pools/volumes/filesystems that you want ZFSREP to replicate.
+SSH public key auth must be enabled from SRC host to DST host.
 
 
 zfsrep.conf file format: (a single volume/fs per line)
