@@ -2,7 +2,8 @@ About
 =====
 ZFSREP automates the replication and management of ZFS volumes (raw) or filesystems (cooked) at block level using ZFS 'send' and 'recv'.
 Set it up and just schedule it via 'cron' to run as often as you wish.
-
+Essentially this gives you the same functionality as Netapp SnapVault between Netapp arrays,
+but here we do it on the host level.
 
 Requirements
 ============
