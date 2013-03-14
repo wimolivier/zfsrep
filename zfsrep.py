@@ -8,7 +8,8 @@
 ''' TODO:				
                      (1) monitor fs free space (put minfree field into config file) - MAYBE
                      (2) local logfile
-                     (3) email alerts
+                     (3) email & syslog alerts
+                     (4) add error checks and crash recovery
 '''
 
 import os
